@@ -12,8 +12,8 @@ obteve dois prêmios mais rápido.
 
 ### Como executar o projeto
 
-Java 17
-IDE Intellij
++ Java 17
++ preferencia IDE Intellij
 
 #### Comando para executar testes integrados
 
