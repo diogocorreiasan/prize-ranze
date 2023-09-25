@@ -7,6 +7,7 @@ public class Constants {
     public static final String YES = "yes";
     public static final String EMPTY = "";
     public static final String REGEX = ",";
+    public static final String AND = " and ";
     public static final String PATTERN = "\n";
     public static final String TARGET = "\"";
     public static final String SEMICOLON = ";";
