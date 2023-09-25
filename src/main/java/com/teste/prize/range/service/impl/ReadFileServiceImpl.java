@@ -111,6 +111,7 @@ public class ReadFileServiceImpl implements ReadFileService {
 
     private List<Producer> getProducers(final String fields) {
         return stream(fields.split(REGEX))
+                .flatMap(name -> stream(name.split(AND)))
                 .map(field -> Producer.builder().name(field).build())
                 .toList();
     }
